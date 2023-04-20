@@ -1,0 +1,25 @@
+name:		vlsm-gen
+version: 	1.0
+cabal-version:	>= 1.6
+description: 	Variable Length Subnet Mask Generator
+license: 	AllRightsReserved
+license-file: 	LICENSE
+copyright:
+author:		Raul Gutierrez
+maintainer: 	r.gutierrez@upm.es
+build-type: 	Simple
+stability:
+homepage:
+package-url:
+synopsis:
+category:
+tested-with:
+source-repository head
+  type:     git
+  location: https://github.com/raulgut/vlsm-gen.git
+
+Executable vlsm-gen
+  buildable: True
+  main-is: main.hs
+  build-depends: base, split, containers, mtl
+  hs-source-dirs: src

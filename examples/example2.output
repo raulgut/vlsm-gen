@@ -1,0 +1,31 @@
+
+Parameters:
+ -> ISP Network Address: 172.16.0.0/16
+ -> Subnets (sizes): 60, 210, 94, 800, 1500
+
+Solution:
+
+IP Address: 172.16.0.0/26
+ -> First Device: 172.16.0.1
+ -> Last Device: 172.16.0.62
+ -> Broadcast: 172.16.0.63
+
+IP Address: 172.16.1.0/24
+ -> First Device: 172.16.1.1
+ -> Last Device: 172.16.1.254
+ -> Broadcast: 172.16.1.255
+
+IP Address: 172.16.2.0/25
+ -> First Device: 172.16.2.1
+ -> Last Device: 172.16.2.126
+ -> Broadcast: 172.16.2.127
+
+IP Address: 172.16.4.0/22
+ -> First Device: 172.16.4.1
+ -> Last Device: 172.16.7.254
+ -> Broadcast: 172.16.7.255
+
+IP Address: 172.16.8.0/21
+ -> First Device: 172.16.8.1
+ -> Last Device: 172.16.15.254
+ -> Broadcast: 172.16.15.255
